@@ -1,0 +1,46 @@
+<!Doctype html>
+<!-- Author: Reza Akhlaqi    6-11-2019 -->
+<html lang="en">
+
+<head>
+    <script>
+        //declare the variable
+        var users = [{
+            name: "Michael",
+            age: 37
+        }, {
+            name: "John",
+            age: 30
+        }, {
+            name: "David",
+            age: 27
+        }];
+
+
+        //How would you print/log John's age?
+        //this is an array, and each {} is one value. So, useres here has length of 2. and john is in length of 1
+        console.log(users[1]);
+
+
+        console.log("");
+        //How would you print/log the name of the first object?
+        //log the array in value length, log the sub array .name 
+        console.log(users[0].name);
+
+
+
+        console.log("");
+        //How would you print/log the name and age of each user using a for loop?
+        for (var i = 0; i < users.length; i++) {
+            console.log([users[i].name] + " - " + [users[i].age]);
+        }
+    </script>
+</head>
+
+<body>
+    <h2>Playing With Objects Assignment</h2>
+    <p>Reza Akhlaqi</p>
+    <p>Please check the browser's console to see the answer or open the html file with text editor software</p>
+</body>
+
+</html>
